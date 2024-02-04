@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/to-do-app-react/static/css/main.82f84e11.css",
+    "main.js": "/to-do-app-react/static/js/main.fb6744c7.js",
+    "static/js/787.b0f63f64.chunk.js": "/to-do-app-react/static/js/787.b0f63f64.chunk.js",
+    "static/media/leo_okuyama-_8f8Ptbmdu4_unsplash.jpg": "/to-do-app-react/static/media/leo_okuyama-_8f8Ptbmdu4_unsplash.24a6a98a107004bba6d8.jpg",
+    "index.html": "/to-do-app-react/index.html",
+    "main.82f84e11.css.map": "/to-do-app-react/static/css/main.82f84e11.css.map",
+    "main.fb6744c7.js.map": "/to-do-app-react/static/js/main.fb6744c7.js.map",
+    "787.b0f63f64.chunk.js.map": "/to-do-app-react/static/js/787.b0f63f64.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82f84e11.css",
+    "static/js/main.fb6744c7.js"
+  ]
+}
