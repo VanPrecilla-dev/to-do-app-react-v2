@@ -1,0 +1,92 @@
+
+/* responsive design */
+
+.formContainer{
+    padding: 20px;
+}
+
+.groupDiv:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.label {
+    font-family: 'Space Mono', Calibri, sans-serif;
+    font-size: max(1vw, 25px);
+    float: left;
+   
+}
+
+.labelDiv {
+    float: left;
+    width: 50%;
+    margin-top: 1px;
+}
+
+.inputDiv {
+    float: left;
+    width: 100%;
+    margin: 5px;
+
+}
+
+.input {
+    font-family: Calibri, sans-serif;
+    font-size: max(1vw, 15px);
+    letter-spacing: 2px;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.button {
+    background-color: #0E2347;
+    color: white;
+    width: 8vw;
+    height: 5vh;
+    font-family: 'Space Mono', Calibri, san;
+    font-size: 1vw;
+    letter-spacing: 3px;
+    padding: auto;
+    margin: 15px;
+    border: 4px solid white;
+    border-radius: 10px;
+    float: right;
+}
+
+.button:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+@media screen and (max-width: 1300px) {
+    .labelDiv, .inputDiv {
+      width: 100%;
+      margin-top: 0;
+    }
+
+    .input, .label {
+        font-size: 2vw;
+    }
+
+    .button {
+        font-size: 2vw;
+        width: 20vw;
+        height: 10vh;
+        margin: auto;
+        right: 0;
+    }
+  }
+
+  @media screen and (max-width: 767px){
+    .button {
+        width: 15vw;
+        height: 10vh;
+    }
+  }
+
+
+  

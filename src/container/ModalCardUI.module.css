@@ -1,0 +1,55 @@
+
+
+.modalCard {
+    padding: 1em;
+    border-radius: 15px;
+    width: 30vw;
+    height: 70vh;
+    align-self: center;
+    text-align: center;
+    top: 25px;
+    margin :10% 8% ;
+    position: absolute;
+    background-color: #0E2347;
+    color: white;
+    overflow: auto;
+ 
+}
+
+.lightModalCard {
+    padding: 1em;
+    border-radius: 15px;
+    width: 30vw;
+    height: 70vh;
+    align-self: center;
+    text-align: center;
+    top: 25px;
+    margin :10% 8% ;
+    position: absolute;
+    background-color: #CDDDF4;
+    color: #363671;
+    overflow: auto;
+    z-index: 20;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .modalCard,  .lightModalCard  {
+        top: 20vh;    
+        margin: 5vw;
+        height: 60vh;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .modalCard, .lightModalCard  {
+        position: absolute;
+        display: block;
+        top: 8vh;
+        bottom: 0;
+        width: 80vw;
+        height: 60vh;
+        left: 3vw;
+    }
+ 
+  }

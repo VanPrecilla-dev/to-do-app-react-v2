@@ -1,0 +1,104 @@
+
+
+.tableContainer {
+    margin-top: 5%;
+    background-color: #0F1819 ;
+    color: white;
+    border-radius: 15px;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid ;   
+    padding: 2%;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.lightTableContainer {
+    margin-top: 5%;
+    background-color: #CDDDF4 ;
+    color: #363671;
+    border-radius: 15px;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid ;   
+    padding: 2%;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+.tr:hover, .btnDiv:hover, .lightIcon:hover {
+    background-color: gray;
+    color: white;
+}
+
+.td, .th {
+    border-color: white;
+    border-width: 1px;
+    border-style: solid ;
+    padding: 1%;
+    width: max-content;
+}
+
+.labelView {
+    font-family: 'Space Mono', Calibri, sans-serif;
+    font-size: max(0.8vw, 15px);
+    padding: 5px;
+    margin-top: 3%;
+}
+
+.inputView {
+    font-family: Calibri, sans-serif;
+    font-size: max(.3vw, 15px);
+    letter-spacing: 1px;
+}
+
+.checkBox {
+    float: left;
+    margin:  9% 2% 8% 0%;
+
+}
+
+.btnDiv {
+    margin-top: 7%;
+    float: right;
+    width: 120px;
+}
+
+.iconBtn {
+    background-color: transparent;
+    border: none;
+    width: 40px;
+}
+
+.icon {
+    color: white;
+    width: 15px;
+    height: auto;
+    margin: auto;
+}
+
+.lightIcon {
+    color: #363671;
+    width: 15px;
+    height: auto;
+    margin: auto;
+}
+
+.iconBtn:hover, .icon:hover, .lightIcon:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+
+
+@media screen and (max-width: 1300px) {
+
+    .btnDiv {
+       display: flex;
+       width: 80px;
+    }
+
+  }
+
+

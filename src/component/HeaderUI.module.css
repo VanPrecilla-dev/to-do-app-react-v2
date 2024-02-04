@@ -1,0 +1,134 @@
+.header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 22vh;
+  padding: 5px;
+  display: block;
+  z-index: 20;
+  background-color: transparent;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.h1 {
+  margin-left: 10%;
+  color: #fff;
+  font-size: 5vw;
+  font-family: "Space Mono", "Calibri";
+  width: 50vw;
+}
+
+.lightH1 {
+  margin-left: 10%;
+  color: #4e4e88;
+  font-size: 5vw;
+  font-family: "Space Mono", "Calibri";
+  width: 50vw;
+}
+
+.line {
+  border-left: 6px solid white;
+  height: 75vh;
+  position: fixed;
+  left: 50%;
+  margin-left: -3px;
+  top: 15%;
+}
+
+.lightLine {
+  border-left: 6px solid #4e4e88;
+  height: 75vh;
+  position: fixed;
+  left: 50%;
+  margin-left: -3px;
+  top: 15%;
+}
+
+.imgBtnDiv {
+  position: absolute;
+  max-width: 25vw;
+  max-height: auto;
+  float: right;
+  top: 12%;
+  right: 10%;
+}
+
+.imgBtn {
+  max-width: 3vw;
+  max-height: auto;
+  background-color: transparent;
+  border: none;
+}
+
+.imgIcon {
+  color: white;
+  width: 3vw;
+  height: auto;
+  margin: auto;
+}
+
+.ligthImgIcon {
+  color: #4e4e88;
+  width: 3vw;
+  height: auto;
+  margin: auto;
+}
+
+.imgBtn:hover {
+  background-color: #cdddf4;
+}
+
+.imgBtn:active .imgIcon:active {
+  color: black;
+}
+
+@media screen and (max-width: 1300px) {
+  .header {
+    height: 25vh;
+  }
+
+  .h1 {
+    float: none;
+    width: 200px;
+  }
+
+  .lightH1 {
+    float: none;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    height: 15vh;
+    }
+
+  .h1, .lightH1 {
+    font-size: 3vw;
+  }
+    .imgBtnDiv {
+      width: 200vw;
+      height: auto;
+      top: 5%;
+      right: 10%;
+    }
+
+    .imgBtn {
+      max-width: 30vw;
+      max-height: auto;
+      background-color: transparent;
+      border: none;
+    }
+
+    .imgIcon {
+      width: 5vw;
+      height: auto;
+    }
+
+
+    .ligthImgIcon {
+      width: 5vw;
+      height: auto;
+    }
+}

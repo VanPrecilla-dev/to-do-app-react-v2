@@ -1,0 +1,38 @@
+.listCard {
+    padding: 0;
+    border-radius: 15px;
+    width: 40vw;
+    height: 75vh;
+    align-self: center;
+    text-align: center;
+    top: 25px;
+    left: 45vw;
+    margin :10%;
+    position: absolute;
+    background-color: transparent;
+    overflow: auto;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .listCard {
+     top: 20vh;    
+     margin: 5vw;
+     height: 70vh;
+     left: 50vw;
+    }
+
+
+  }
+
+  @media screen and (max-width: 767px) {
+    .listCard {
+      position: relative;
+      display: block;
+      top: 0;
+      margin: 0;
+      width: 80vw;
+      height: 50vh;
+      left: 8vw;
+     }
+  }

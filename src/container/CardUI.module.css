@@ -1,0 +1,65 @@
+.card {
+  padding: 1em;
+  border-radius: 15px;
+  width: 30vw;
+  height: 70vh;
+  align-self: center;
+  text-align: center;
+  top: 25px;
+  margin: 10% 8%;
+  position: absolute;
+  background-color: #0f1819;
+  color: white;
+  overflow: auto;
+}
+
+.lightCard {
+  padding: 1em;
+  border-radius: 15px;
+  width: 30vw;
+  height: 70vh;
+  align-self: center;
+  text-align: center;
+  top: 25px;
+  margin: 10% 8%;
+  position: absolute;
+  background-color: #cdddf4;
+  color: #363671;
+  overflow: auto;
+}
+
+@media screen and (max-width: 1300px) {
+  .card {
+    top: 20vh;
+    margin: 5vw;
+    height: 60vh;
+  }
+
+  .lightCard {
+    top: 20vh;
+    margin: 5vw;
+    height: 60vh;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card {
+    position: relative;
+    display: block;
+    top: 0;
+    bottom: 0;
+    width: 80vw;
+    height: 50vh;
+    left: 3vw;
+  }
+
+  .lightCard {
+    position: relative;
+    display: block;
+    top: 0;
+    bottom: 0;
+    width: 80vw;
+    height: 50vh;
+    left: 3vw;
+  }
+}

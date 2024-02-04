@@ -1,0 +1,31 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+   
+}
+
+.darkModeBG {
+    background-image: url("../img/leo_okuyama-_8f8Ptbmdu4_unsplash.jpg"); 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+    min-height: 100vh;
+    margin: 0;
+}
+
+.lightModeBG {
+    background-color: #F5F5F6;
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+    min-height: 100vh; 
+    margin: 0;
+}
+
+
+
+
